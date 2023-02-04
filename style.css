@@ -439,16 +439,121 @@ section.academic{
 
 /* experiência*/
 
-section.experience{
+section.projects {
+    padding: 30px;
+    text-align: center;
+    width: 1210px;
+    margin-top:15px ;
+}
+
+.projects__title {
+    width: 330px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*CARDS*/
+
+.projects__cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 30px 0 0 0;
+    gap: 56px;   
+    width: 1114px;
+    margin-left: 70px;
 
 }
 
-.experience__section__title{
 
+.projects__card {
+    background: #FDFDFD;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin: .8rem auto;
+    max-width: 400px;
+    padding: .5rem;
+    width: 80%;
 }
 
-.experiencie__box{
+.projects__card-imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10rem;
+    width: 100%;
+}
+
+.forca {
+    background-image: url('../img/jogoDaForca.png');
+}
+
+.decodificador {
+    background-image: url('../img/decodificador.png');
+}
+
+.list {
+    background-image: url('../img/todolist.png');
+}
+
+.conversor {
+    background-image: url('../img/conversor.png');
+}
+
+.projects__card-text {
+    margin: .8rem auto;
+    text-align: center;
+    width: 85%;
+    font-family: 'Raleway';
+    color: #464646;
+}
+
+.projects__card-texts {
+    min-height: 85%;
+}
+
+.projects__card-title {
+    border-bottom: 1px solid ;
+    font-size: 1.4rem ;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #464646;
     
+}
+
+.projects__card-description {
+    box-sizing: border-box;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    font-family: 'Raleway';
+    color: #464646;
+}
+
+.projects__card-buttons {
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+.projects__card-link {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px .8rem;
+    padding: .5rem .8rem;
+    text-decoration: none;
+    color: #464646;
 }
 
 
