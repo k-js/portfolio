@@ -1,262 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Folha de estilo de CSS Linkado -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Folha de estilo CSS linkada -->
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!-- Fonte do Projeto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    
-    <title>Portifólio Pessoal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+
+    <title>Keu Araujo | Business Intelligence</title>
 </head>
 <body>
-    <!-- Sessão de Menu  -->
+    <!-- Container principal -->
     <div class="all">
-    <section class="menu">
-        <header class="logo">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Keu Araujo</h3>
-        </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
-                <li class="menu__list__item"><a href="#xp">Experiência</a></li>
-                <li class="menu__list__item"><a href="#contato"><b>Araaujokeu@gmail.com</b></a></li>
-            </ul>
-        </nav>
-    </section>
-
-<!-- Sessão de Header/Title/Hero -->
-    <section class="title">
-        <div class="title__div">
-            <div class="title__container" id="#sobremim">
-                <h2 class="title__bio">Olá, meu nome é Keu Araujo e construo páginas web</h2>
-                <h3 class="title__subsection">Eu sou formadu em Desenvolvido Web e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
-                <ul class="title__network">
-                    <!-- Ponha os links de suas redes sociais favoritas -->
-                    <li class="title__network__item"><a href="https://github.com/k-js" target="_blank">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="https://www.linkedin.com/in/keu-araujo/" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="https://www.instagram.com/keu_araujos/?igshid=NTA5ZTk1NTc%3D" target="_blank">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="https://drive.google.com/file/d/110KGHQn5xVwNCInz7N_FwBOQRGaiyJkW/view?usp=sharing" target="_blank">Curriculo <img src="assets\arrow.png"></a></li>
+        <!-- Sessão de Menu -->
+        <section class="menu">
+            <header class="logo">
+                <img src="assets/vector.png" alt="Logo Keu Araujo" />
+                <h3 class="menu__title">Keu Araujo</h3>
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
+                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
+                    <li class="menu__list__item"><a href="#xp">Experiência</a></li>
+                    <li class="menu__list__item"><a href="mailto:araaujokeu@gmail.com"><b>araaujokeu@gmail.com</b></a></li>
                 </ul>
+            </nav>
+        </section>
+
+        <!-- Sessão de Header/Title/Hero -->
+        <section class="title">
+            <div class="title__div">
+                <div class="title__container" id="sobremim">
+                    <h2 class="title__bio">Olá, meu nome é Keu Araujo e analiso dados para criar soluções estratégicas</h2>
+                    <h3 class="title__subsection">
+                        Futura Economista e desenvolvedora com foco em Business Intelligence, SQL, KPIs e visualização de dados.
+                    </h3>
+                    <ul class="title__network">
+                        <li class="title__network__item">
+                            <a href="https://github.com/k-js" target="_blank" rel="noopener noreferrer">
+                                Github <img src="assets/arrow.png" alt="Seta" />
+                            </a>
+                        </li>
+                        <li class="title__network__item">
+                            <a href="https://www.linkedin.com/in/keu-araujo/" target="_blank" rel="noopener noreferrer">
+                                Linkedin <img src="assets/arrow.png" alt="Seta" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <img class="title__profile" src="assets/perfil.jpg" alt="Foto de perfil Keu Araujo" />
             </div>
-            <img class="title__profile" src="assets\profile.png">
-        </div>
-    </section>
+        </section>
 
         <!-- Sessão sobre mim -->
-    <section class="about">
-        <div class="about__container">
-            <h3 class="about__title">Sobre mim</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-            <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
-            <img src="assets\signature.png">
-        </div>
-    </section>
+        <section class="about" id="sobremim">
+            <div class="about__container">
+                <h3 class="about__title">Sobre mim</h3>
+                <p class="about__paragraph">
+                    Formação em andamento em Ciências Econômicas pela UFPR, com experiências em projetos de tecnologia orientados a dados e impacto social.
+                    Atuo na interseção entre análise de dados, desenvolvimento web e inteligência de negócios, com foco em transformar dados em decisões estratégicas.
+                </p>
+                <p class="about__paragraph">
+                    Já desenvolvi soluções integrando SQL, visualização de dados e metodologias ágeis. Tenho paixão por criar produtos que conectam tecnologia e propósito.
+                </p>
+            </div>
+        </section>
 
-<!-- Sessão de Skills/Habilidades -->
-    <section class="skills">
-        <h3 class="skills__title" id="skills">Skills</h3>
-            <div class="skills__line">
+        <!-- Sessão de Skills/Habilidades -->
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <div class="skills__line skills__line--first">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> Html 5</li>
+                        <li class="skills__img"><img src="assets/sql-40.png" alt="SQL"/></li>
+                        <li class="skills__name">SQL</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                        <li class="skills__name">Javascript</li>
+                        <li class="skills__img"><img src="assets/python-40.png" alt="Python"/></li>
+                        <li class="skills__name">Python</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
+                        <li class="skills__img"><img src="assets/power-bi-40.png" alt="Power BI"/></li>
+                        <li class="skills__name">Power BI</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__img"><img src="assets/js_icon.png" alt="JavaScript"/></li>
+                        <li class="skills__name">JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills__line skills__line--second">
+                <div class="skills__box">
+                    <ul>
+                        <li class="skills__img"><img src="assets/nodejs_icon.png" alt="Node JS"/></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__img"><img src="assets/react_icon.png" alt="React"/></li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
+                        <li class="skills__img"><img src="assets/kpi-40.png" alt="KPIs e Storytelling"/></li>
+                        <li class="skills__name">KPIs e Storytelling</li>
                     </ul>
                 </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Sessão de Histórico Acadêmico -->
-    <section class="academic">
-        <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
-        <div class="academic__courses">
-            <div class="academic__courses__box">
-                    <!-- Insira a logo de seu local de formação -->
-                    <div class="experiencias__CorImagem">
-                       <img class="academic__courses__item__img" src="./assets/ufpr.png"></li>
-                    </div>
-                    <p class="academic__courses__item__title">Bacharelado, Ciências Econômicas</p>
-                    <p class="academic__courses__item__subtitle">2018 - UFPR</p></li>
-            </div>
-            <div class="academic__courses__box">
-                <!-- Insira a logo de seu local de formação -->
-                    <div class="experiencias__CorImagem">
-                    <img class="academic__courses__item__img" src="./assets/ufpr.png"></li>
-                    </div>
-                    <p class="academic__courses__item__title">Bacharelado, Ciências Econômicas</p>
-                    <p class="academic__courses__item__subtitle"></p></li>
-            </div>
-            <div class="academic__courses__box">
-                <!-- Insira a logo de seu local de formação -->
-                    <div class="experiencias__CorImagem">
-                    <img class="academic__courses__item__img" src="./assets/ufpr.png"></li>
-                    </div>
-                    <p class="academic__courses__item__title">Bacharelado, Ciências Econômicas</p>
-                    <p class="academic__courses__item__subtitle"></p></li>
-            </div>
-        </div>
-    </section>
-
-        <!-- Sessão de Experiência Profissional/Projetos-->
-        <section class="projects">
-            <hi id="projects" class="projects__title">Projetos</hi>
+        <!-- Experiência Profissional -->
+        <section class="experience" id="xp">
+            <h2 class="projects__title">Experiência Profissional</h2>
             <div class="projects__cards">
                 <div class="projects__card">
-                    <div class="projects__card-imagem forca"> </div>
-                    <div class="projects__card-text">
-                        <div class="projects__card-texts">
-                            <h2 class="projects__card-title">Jogo da Forca</h2>
-                            <p class="projects__card-description">Feito com HTML, CSS e Javascript.</p>
-                            <p class="projects__card-description">
-                                Jogo com dicas onde tem que adivinhar a palavra
-                                sorteada antes do boneco ser enforcado.Possivél escolher
-                                uma palavra para jogar com um amigo.
-                            </p>
-                        </div>
-                        <div class="projects__card-buttons">
-                            <a href="" target="_blank" class="projects__card-link">Repositório</a>
-                            <a href="" target="_blank" class="projects__card-link">Página</a>
-                        </div>
-                    </div>
+                    <h2 class="projects__card-title">Estágio - Aceleradora Ágil (2022–2023)</h2>
+                    <p class="projects__card-description">
+                        Desenvolvimento de plataforma com SQL e CMS, metodologias ágeis (Scrum), práticas de CI/CD e mentoria com foco em decisões baseadas em dados.
+                    </p>
                 </div>
-                <div class="projects__card">
-                    <div class="projects__card-imagem forca"> </div>
-                    <div class="projects__card-text">
-                        <div class="projects__card-texts">
-                            <h2 class="projects__card-title">Jogo da Forca</h2>
-                            <p class="projects__card-description">Feito com HTML, CSS e Javascript.</p>
-                            <p class="projects__card-description">
-                                Jogo com dicas onde tem que adivinhar a palavra
-                                sorteada antes do boneco ser enforcado.Possivél escolher
-                                uma palavra para jogar com um amigo.
-                            </p>
-                        </div>
-                        <div class="projects__card-buttons">
-                            <a href="" target="_blank" class="projects__card-link">Repositório</a>
-                            <a href="" target="_blank" class="projects__card-link">Página</a>
-                        </div>
+            </div>
+        </section>
+
+        <!-- Formação Acadêmica -->
+        <section class="academic" id="formacao">
+            <h2 class="academic__title">Formação acadêmica</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <div class="experiencias__CorImagem">
+                        <img class="academic__courses__item__img" src="./assets/ufpr.png" alt="Logo UFPR" />
                     </div>
+                    <p class="academic__courses__item__title">Bacharelado, Ciências Econômicas</p>
+                    <p class="academic__courses__item__subtitle">2022 - 2026 - Universidade Federal do Paraná</p>
                 </div>
-                <div class="projects__card">
-                    <div class="projects__card-imagem forca"> </div>
-                    <div class="projects__card-text">
-                        <div class="projects__card-texts">
-                            <h2 class="projects__card-title">Jogo da Forca</h2>
-                            <p class="projects__card-description">Feito com HTML, CSS e Javascript.</p>
-                            <p class="projects__card-description">
-                                Jogo com dicas onde tem que adivinhar a palavra
-                                sorteada antes do boneco ser enforcado.Possivél escolher
-                                uma palavra para jogar com um amigo.
-                            </p>
-                        </div>
-                        <div class="projects__card-buttons">
-                            <a href="" target="_blank" class="projects__card-link">Repositório</a>
-                            <a href="" target="_blank" class="projects__card-link">Página</a>
-                        </div>
+                <div class="academic__courses__box">
+                    <div class="experiencias__CorImagem">
+                        <img class="academic__courses__item__img" src="./assets/ufpr.png" alt="Logo UFPR" />
                     </div>
-                </div>
-                <div class="projects__card">
-                    <div class="projects__card-imagem forca"> </div>
-                    <div class="projects__card-text">
-                        <div class="projects__card-texts">
-                            <h2 class="projects__card-title">Jogo da Forca</h2>
-                            <p class="projects__card-description">Feito com HTML, CSS e Javascript.</p>
-                            <p class="projects__card-description">
-                                Jogo com dicas onde tem que adivinhar a palavra
-                                sorteada antes do boneco ser enforcado.Possivél escolher
-                                uma palavra para jogar com um amigo.
-                            </p>
-                        </div>
-                        <div class="projects__card-buttons">
-                            <a href="" target="_blank" class="projects__card-link">Repositório</a>
-                            <a href="" target="_blank" class="projects__card-link">Página</a>
-                        </div>
-                    </div>
+                    <p class="academic__courses__item__title">Licenciatura, Ciências Exatas (Incompleto)</p>
+                    <p class="academic__courses__item__subtitle">2019 - 2021</p>
                 </div>
             </div>
         </section>
 
         <!-- Sessão de Contato -->
-        <section class="formcontato">
-            <div id="contato" class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contact_image.png">
-                </div>
-                <div class="formcontato__text">
-                    <div class=" bloco">
-                    <h2 class="formcontato__title">Contato</h2>
-                    <div class="formcontato__subtext">
-                        <h3>Quer entrar em contato comigo?</h3>
-                        <h3>Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    </div>
-                    </div>
-                      <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button class="formcontato__botao">Enviar mensagem</button>
-                    </form>
+        <section class="formcontato" id="contato">
+            <div class="formcontato__contacto">
+                <h2 class="formcontato__title">Contato</h2>
+                <div class="formcontato__subtext">
+                    <h3>Quer entrar em contato comigo?</h3>
+                    <p><strong>Keu Araujo</strong></p>
+                    <p><a href="mailto:araaujokeu@gmail.com">araaujokeu@gmail.com</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Sessão de Footer/Rodapé-->
+        <!-- Footer -->
         <section class="footer">
             <div class="footer__rodape">
                 <p>Desenvolvido por Keu Araujo</p>
-                <p> &copy; 2022</p>
+                <p>&copy; 2025</p>
             </div>
         </section>
     </div>
-    <!-- Script Linkado do seu documento de JavaScript -->
-<script src="validate.js"></script>
 </body>
 </html>
-
